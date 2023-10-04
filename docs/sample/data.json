@@ -1,7 +1,7 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "Pola de Siero Culture",
+        "app_title": "Importancia de los huevos en Pola de Siero",
         "version": 1,
         "updated": "2022-09-26",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
@@ -9,7 +9,7 @@
         "marketplace_url": ""
     },
     "content": {
-        "en": {
+        "es": {
             "app": {
                 "theme": {
                     "brand": "##38CF0B",
@@ -22,10 +22,28 @@
                 "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
-            "pois": [{
+            "pois": [
+                {
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
+                    "lat": "43.39137269685077",
+                    "lon": "-5.66223725183902",
+                    "type": "mercado tradicional",
+                    "name": "Mercado de aldeanos",
+                    "images": [
+                        "https://s3.ppllstatics.com/elcomercio/www/multimedia/202005/17/media/cortadas/55386415--1248x830.JPG",
+                        "https://www.ayto-siero.es/recursos/img/35665_144144201514466.jpg"
+                    ],
+                    "description": "Todos los martes bajan los aldeanos a vender su cosecha propia a Pola de Siero",
+                    "more": "En el año 1270, concretamente el jueves 14 de Agosto, el rey Alfonso X El Sabio, concede carta de población a los hombres de la tierra de Siero en la que localiza el lugar y el día de mercado: Estos derechos e estos realengos lles damos en tal manera que ellos poblen en el lugar que dizen la albergueria de San Pedro, e que fagan y villa e todos los que poblaron que fagan y las mayores casas pobladas y ençierren y so pan e so vino. Otrossi, lles otorgamos que fagan y mercado cada semana el ida del martes, e que todos aquellos que y vinieren que vengan e vallan seguros assí commo en todos los mercados de Asturias. Se constituye desde ese momento el mercado semanal de Pola de Siero, que arraiga en la población y se constituye como un mercado de referencia en los municipios limitrofes, siendo conocido el dicho popular de el martes en la Pola",
+                    "urls": [
+                        
+                    ]
+                },
+                {
+                
+                    "id": "uniqueID-2",
+                    "lat": "43.39086148846694",
+                    "lon": "-5.6634280914909665",
                     "type": "statue",
                     "name": "Egg Statue",
                     "images": [
@@ -38,17 +56,17 @@
                     ]
                 },
                 {
-                    "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "uniqueID-3",
+                    "lat": "43.39256384749566",
+                    "lon": "-5.659883409734349",
+                    "type": "parque",
+                    "name": "Parque Alfonso X El Sabio",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://www.verpueblos.com/fotos_reducidas/1/6/5/00726165.jpg",
+                        "https://estaticos-cdn.prensaiberica.es/clip/dfe8a106-2581-4154-8888-b0d5c5128a1d_source-aspect-ratio_default_0.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Venta de huevos pintos",
+                    "more": "Todos los martes despues del domingo de Pascua, celebracion de Semana Santa, muchos artistas se reunen en el parque Alfonso X El Sabio para vender huevos pintados",
                     "urls": [
                         "https://nl.wikipedia.org/MyPoi",
                         "https://example.org/mypoi"
